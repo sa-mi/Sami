@@ -1,0 +1,69 @@
+@import: url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  height: 100%;
+  background-color: black;
+  color: #fff;
+  text-transform: uppercase;
+}
+.container {
+  text-align: center;
+}
+h1 {
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+.button {
+  width: 170px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.button-1 {
+  background-color: transparent;
+  border: 3px solid #7289DA;
+  border-radius: 50px;
+  -webkit-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+  color: #FFFFFF
+;
+}
+.button-1:hover {
+  box-shadow: 0 0 10px 0 #7289DA inset, 0 0 20px 2px #7289DA;
+  border: 3px solid #7289DA;
+}
+
+.button-2 {
+  color: #fff;
+  border: 3px solid #c266d3;
+  background-image: -webkit-linear-gradient(30deg, #c266d3 50%, transparent 50%);
+  background-image: linear-gradient(30deg, #c266d3 50%, transparent 50%);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+}
+.button-2:hover {
+  background-position: 100%;
+  color: #c266d3;
+}
+
+.button-3 {
+  border: 2px solid #FF0000;
+  background-color: #FF0000;
+  border-radius: 20px;
+  color: #fff;
+  transition: .3s;
+}
+.button-3:hover {
+  box-shadow: 8px 8px #F9F6EF;
+  transition: .3s;
